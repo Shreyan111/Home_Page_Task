@@ -314,7 +314,7 @@ u{
     font-size: 40px;
     font-weight: 500;
 }
-#slider [type="radio"] {
+/* #slider [type="radio"] {
     display: none;
   }
   
@@ -396,7 +396,7 @@ u{
 
   #slider{
       margin-top: 100px;
-  }
+  } */
 
 .circle5{
     width: 100px;
