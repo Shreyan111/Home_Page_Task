@@ -446,7 +446,7 @@ hr.new1 {
     margin-top: 200px;
   }
 
-@media (min-width: 1001px) and (max-width: 1400px) { 
+/* @media (min-width: 1001px) and (max-width: 1400px) { 
     .Image8{
         display: none;
     }
@@ -609,7 +609,7 @@ hr.new1 {
 .circle6{
     margin-left: 0px;
 }
-}
+} */
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 30px;
     width: 30px;
@@ -756,4 +756,104 @@ table {
       margin-top: 60px;
       margin-bottom: 200px;
   }
-  
+  @media (min-width: 481px) and (max-width: 1000px){
+    .bigcircle, .top_bigcircle, .top_bigcircle1{
+        display: none;
+    }
+    .Image5, .Image6{
+        display: none;
+    }
+    .new2, .new3, .new1{
+        display: none;
+    }
+    .customers{
+        font-size: 30px;
+    }
+    .image_meet{
+        margin-top: 10px;
+        width: 475px;
+        margin-left: 40px;
+        height: 375px;
+    }
+    .image_dover{
+        width: 400px;
+        height: 400px;
+    }
+    .first_line{
+        font-size: 40px;
+    }
+    .we{
+        font-size: 30px;
+    }
+    .uses, .our{
+        font-size: 20px;
+    }
+    .orbit{
+        width: 350px;
+        height: 450px;
+    }
+    .discover{
+        margin-left: 30px;
+    }
+    .find{
+        font-size: 40px;
+    }
+  }
+  @media (min-width: 370px) and (max-width: 479px){
+    .bigcircle, .top_bigcircle, .top_bigcircle1{
+        display: none;
+    }
+    .Image5, .Image6{
+        display: none;
+    }
+    .new2, .new3, .new1{
+        display: none;
+    }
+    .customers{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .image_meet{
+        margin-top: 10px;
+        width: 330px;
+        margin-left: 40px;
+        height: 375px;
+    }
+    .image_dover{
+        width: 300px;
+        height: 400px;
+    }
+    .first_line{
+        font-size: 40px;
+    }
+    .we{
+        font-size: 30px;
+    }
+    .uses, .our{
+        font-size: 20px;
+    }
+    .orbit{
+        width: 350px;
+        height: 450px;
+    }
+    .discover{
+        margin-left: 0px;
+    }
+    .find{
+        font-size: 40px;
+    }
+  }
+  @media (min-width: 1001px) and (max-width: 1400px){
+      .image_meet{
+          width: 550px;
+          height: 500px;
+      }
+      .image_dover{
+          width: 420px;
+          height: 520px;
+      }
+      .orbit{
+          width: 450px;
+          height: 550px;
+      }
+  }

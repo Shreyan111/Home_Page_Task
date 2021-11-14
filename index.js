@@ -1,4 +1,4 @@
-// This part helps in adding animations to the Text.
+// This part helps in adding animations to the Texts.
 
 consoleText(['Hello Freshers!!', 'This Portal', 'Allow Companies', 'To Recruit', 'Managers &' , 'Developers!!'], 'text',['white','white','white', 'white','white','white']);
 
