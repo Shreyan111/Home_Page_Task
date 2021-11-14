@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +20,7 @@
     <!-- Top Button is done here -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./assets/Image 24.png"></button>
 
-    
+
     <!-- Nav Bar have been done from this part -->
     <div class="container-fluid" id="navbar">
         <nav class="navbar navbar-expand-lg">
@@ -31,27 +32,30 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link top" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link top" href="#about">About Us</a>
+                            <a class="nav-link top" href="#about">Employers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link top" href="#features">Features</a>
+                            <a class="nav-link top" href="#features">Executive Search</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link top" href="#product">Products</a>
+                            <a class="nav-link top" href="#product">Customer Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link top" href="#feedbacks">Feedbacks</a>
+                            <a class="nav-link top" href="#feedbacks">Referral</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link top" href="#pricing">Pricing</a>
+                            <a class="nav-link top" href="#pricing">Candidates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link top" href="#pricing">Login</a>
                         </li>
                     </ul>
-                    <button class="btn request">Request a Demo!</button>
+                    <button class="btn request">Talk to Us!</button>
                 </div>
             </div>
         </nav>
@@ -60,16 +64,16 @@
 
     <!-- This part will contain the text animations with main heading -->
 
-    <div class="container-fluid content" id="home">
-        <div class="row animation">
-            <div class='console-container'>
-                <span id='text'></span>
-                <div class='console-underscore' id='console'>&#95;</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7">
+                <p class="first_text">Hire top 1% tech talent,<br>10x faster</p>
             </div>
-        </div>
-        <div class="row text">
-            <p>Now no more here and there. Use our Website in order to find Companies who want to hire Freshers. We find
-                and schedules candidates with the companies, at a fraction of the cost. Our portal will allow the companies to find the candidates for various roles such as Project Managers, Developers, Software Engineers etc.</p>
+            <div class="col-lg-5">
+                <img src="./assets/Image 6.svg" class="bigcircle">
+                <img src="./assets/Image 9.png" class="top_bigcircle">
+                <img src="./assets/Image 8.png" class="top_bigcircle1">
+            </div>
         </div>
     </div>
 
@@ -104,9 +108,7 @@
             </div>
             <div class="col-lg-10">
                 <div class="d-flex justify-content-center">
-                    <p class="text1">Check why you</p>
-                    <p class="text1_1"><br>should </p>
-                    <p class="text1"><br>choose us?</p>
+                    <p class="text1">Trusted by some of the world's best companies</p>
                 </div>
             </div>
             <div class="col-lg-1">
@@ -114,7 +116,7 @@
             </div>
         </div>
 
-        <div class="row boxes wow animate__animated animate__fadeInDown">
+        <!-- <div class="row boxes wow animate__animated animate__fadeInDown">
             <div class="col-lg-4 col-md-4 box1">
                 <img src="./assets/Image 19.svg" class="Image4">
                 <p class="text2">Easy and Customizable way to find companies so that you can go to your dream journey.
@@ -128,12 +130,43 @@
                 <img src="./assets/Image 17.svg" class="Image4">
                 <p class="text2">Connecting the companies directly with the candidates.</p>
             </div>
+        </div> -->
+        <div class="row boxes wow animate__animated animate__fadeInDown">
+            <div class="col-lg-3 col-md-6 mr-4">
+                <img src="./assets/Comp 1.png" class="Image4">
+            </div>
+            <div class="col-lg-3 col-md-6 mr-4">
+                <img src="./assets/Comp 2.png" class="Image4">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./assets/Comp 3.png" class="Image4">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./assets/Comp 4.png" class="Image4">
+            </div>
+        </div>
+        <div class="row boxes wow animate__animated animate__fadeInDown">
+            <div class="col-lg-3 col-md-6">
+                <img src="./assets/Comp 5.png" class="Image4">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./assets/Comp 6.png" class="Image4">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./assets/Comp 7.png" class="Image4">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./assets/Comp 2.png" class="Image4">
+            </div>
+        </div>
+        <div class="row">
+            <p class="see">See What they are saying<i class="right_arrow"></i></p>
         </div>
     </div>
 
     <!-- This part contains the pictures and illustrations. -->
 
-    <div class="container pictures">
+    <!-- <div class="container pictures">
         <div class="row">
             <div class="d-flex justify-content-center" style="margin-bottom: 30px;">
                 <img src="./assets/Image 8.png" class="mob_pic">
@@ -155,11 +188,11 @@
                 <img src="./assets/Image 15.svg" class="circle2">
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Carousel has been done here for showing the features -->
-    <div class="container carousel" id="features">
+    <!-- <div class="container carousel" id="features">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -183,11 +216,11 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </div> -->
 
     <!-- This part contains the pictures and illustrations. -->
 
-    <div class="container pictures">
+    <!-- <div class="container pictures">
         <div class="row">
             <div class="col-lg-3">
                 <img src="./assets/Image 22.png" class="circle3">
@@ -223,11 +256,199 @@
                 <img src="./assets/Image 15.svg" class="circle2">
             </div>
         </div>
+    </div> -->
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <hr class="new2">
+            </div>
+            <div class="col-lg-6"></div>
+            <div class="col-lg-3">
+                <hr class="new3">
+            </div>
+        </div>
+        <div class="row">
+            <p class="customers">Our customers average<br>5 interviews per role, per<br>week.</p>
+            <img src="./assets/Image_meet.jpg" class="image_meet">
+        </div>
     </div>
+
+
+
+
+    <div class="container-fluid other">
+        <div class="row">
+            <div class="col-lg-6 md-12 col-12">
+                <img src="./assets/Image 25.png" class="image_dover">
+            </div>
+            <div class="col-lg-6 md-12 col-12">
+                <hr class="new1">
+                <p class="first_line">Seamless feedback through Slack.</p>
+                <p class="second_line">We meet you where you are. <b>Dover will send candidates in Slack</b> for your
+                    review to help whittle down the search.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid discover">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="we">We discover candidates you actually want to talk to.</p>
+                <p class="uses">Dover uses a robust calibration process to deeply understand your requirements.</p>
+                <p class="our">Then, our system evaluates prospective candidates on <b>50+ data points</b> so we can
+                    find qualified candidates who are the best possible fits.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="./assets/Orbits.png" class="orbit">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid job">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <p class="find">Find your next top tech job in next 1 week.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <p class="find_below"><b>Are you a top 2%</b> Software Engineer, Product Manager or Data Scientist?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <p class="find_below1">Let leading Indian Technology <b>companies compete to hire you</b></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary apply">APPLY TO JOIN</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <p class="button_below">It takes only 5 minutes.</p>
+            </div>
+        </div>
+        <div class="row steps">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/Image 17.svg" class="first_image">
+                    </div>
+                </div>
+                <div class="row">
+                    <h2 class="heading">STEP 1: COMPLETE PROFILE</h2>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <p class="heading_below">Once you are approved we showcase you to the leading Indian Technology
+                            Startups.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/Image 18.svg" class="first_image">
+                    </div>
+                </div>
+                <div class="row">
+                    <h2 class="heading">STEP 2: RECIEVE JOB OFFERS</h2>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <p class="heading_below">Companies start sending interview requests. Talk to only one whom you
+                            like.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/Image 19.svg" class="first_image">
+                    </div>
+                </div>
+                <div class="row">
+                    <h2 class="heading">STEP 3: ACCEPT DREAM JOBS</h2>
+                </div>
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <p class="heading_below">Compare your offers and accept the best one.<br>Hired!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid bounties">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <h1 class="heading1">Open Job Bounties</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <p class="heading1_below">Get paid to refer great people, including yourself, to get great jobs.
+                <p class="learn">Learn More</p>
+                </p>
+            </div>
+        </div>
+        <div class="row table123">
+            <table>
+                <tr>
+                    <th>Employer</th>
+                    <th>Role</th>
+                    <th>Tags</th>
+                    <th>Location</th>
+                    <th>Referral</th>
+                    <th>Bounty</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>TalentDrop</td>
+                    <td>General Referral</td>
+                    <td>-</td>
+                    <td>Remote - Global</td>
+                    <td>70<br>43 active</td>
+                    <td>$5000</td>
+                    <td><button type="button" class="btn btn-success button" style="margin-bottom: 30px;width: 100px; height: 50px;">Refer</button></td>
+                </tr>
+                <tr>
+                    <td>Journey</td>
+                    <td>Founding Engineer</td>
+                    <td>YC<br>Engineering</td>
+                    <td>Remote - Global</td>
+                    <td>12<br>3 active</td>
+                    <td>$25,000</td>
+                    <td><button type="button" class="btn btn-success button" style="margin-bottom: 30px;width: 100px; height: 50px;">Refer</button></td>
+                </tr>
+                <tr>
+                    <td>Journey</td>
+                    <td>Founding Product Designer</td>
+                    <td>YC<br>Design</td>
+                    <td>Remote - Global</td>
+                    <td>17<br>4 active</td>
+                    <td>$25,000</td>
+                    <td><button type="button" class="btn btn-success button" style="margin-bottom: 30px;width: 100px; height: 50px;">Refer</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
 
     <!-- Product -->
 
-    <div class="container-fluid connect" id="product">
+    <!-- <div class="container-fluid connect" id="product">
         <div class="row">
             <div class="col-lg-9">
                 <p class="text3">Connect with us for getting comapanies</p>
@@ -250,7 +471,8 @@
                         <h5 class="card-title">For Candidates:</h5>
                         <p class="card-text">Step 1: Find the company or role which you would like to opt for.</p>
                         <p class="card-text">Step 2: Fill up your resume.</p>
-                        <p class="card-text">Step 3 : Answer some of the questions asked by your company to help them recruit you.</p>
+                        <p class="card-text">Step 3 : Answer some of the questions asked by your company to help them
+                            recruit you.</p>
                         <p class="card-text">Step 4: Submit the form.</p>
                         <p class="card-text">Step 5: Get Recruited!!</p>
                         <button type="button" class="btn btn-success button">Success!!</button>
@@ -261,11 +483,11 @@
                 <img src="./assets/Image 6.svg" class="big_circle">
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Feedbacks -->
 
-    <div class="container" id="feedbacks">
+    <!-- <div class="container" id="feedbacks">
         <div class="row">
             <div class="d-flex justify-content-center">
                 <p class="feed">Customer Feedbacks!!</p>
@@ -279,7 +501,8 @@
         <input type="radio" name="slider" id="s4">
 
         <label for="s1" id="slide1" style="background: #ffffff;">
-            <p class="textslide">The Product offered by your portal is exciting and very useful. It can help various candidates to get good opportunities.</p>
+            <p class="textslide">The Product offered by your portal is exciting and very useful. It can help various
+                candidates to get good opportunities.</p>
             <p class="textslides">-DEF</p>
         </label>
         <label for="s3" id="slide3" style="background: #ffffff;">
@@ -287,11 +510,11 @@
             <p class="textslides">-ABC</p>
         </label>
 
-    </section>
+    </section> -->
 
     <!-- This part contains the pictures and illustrations. -->
 
-    <div class="container pictures">
+    <!-- <div class="container pictures">
         <div class="row">
             <div class="col-lg-3 md-12 col-12">
                 <img src="./assets/Image 22.png" class="circle5">
@@ -306,11 +529,11 @@
                 <img src="./assets/Image 23.png" class="circle6">
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Pricing -->
 
-    <div class="container prices" id="pricing">
+    <!-- <div class="container prices" id="pricing">
         <div class="row">
             <h2 class="text-uppercase mt-5">
                 <p class="price_head">Pr<u>icing</u></p>
@@ -344,92 +567,85 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer -->
-
-    <footer class="bg-dark text-center text-white">
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">About</h5>
-                    <p>
-                        Our portal allows the companies to find the candidates for various roles such as Project Managers, Developers, Software Engineers etc. Candidates can also look for companies and present their resume in front of them.
-                    </p>
-                    <section class="mt-5 mb-4">
-                        <form action="">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-auto">
-                                    <p class="pt-2">
-                                        <strong>Sign up for our newsletter</strong>
-                                    </p>
-                                </div>
-                                <div class="col-auto">
-                                    <div class="form-outline form-white mb-4">
-                                        <input type="email" id="form5Example2" class="form-control" />
-                                        <label class="form-label" for="form5Example2">Write your Email address</label>
-                                    </div>
-                                </div>
-                                <div class="col-auto">
-                                    <button type="submit" class="btn btn-outline-light mb-4 submit">
-                                        Subscribe
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </section>
-
-                    <div>
-
+    <footer class="text-center text-lg-start text-muted foot">
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 comp">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 cand">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Candidates
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">For Candidates</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Candidates Sign Up</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Refer & Earn</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Candidates FAQ</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 empl">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Employers
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">For Employers</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Employers Sign Up</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Employer FAQ</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact Us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Podcasts</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 comp1">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Company
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Our Values</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Careers</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Terms and Services</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Address</h5>
-                    <p>
-                        A-13, Press Enclave Marg, Ashok Vihar, Saket, New Delhi, Delhi - 110017
-                    </p>
-
-                    <h5 class="text-uppercase mt-5">Contact</h5>
-                    <p>Phone No. : +91-9846583271</p>
-                    <p>Phone No. : +91-9846782412</p>
-                    <p>E-mail address : recruitments@gmail.com</p>
-
-                </div>
-                <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Social</h5>
-                    <section class="mb-4 socials">
-                        <!-- Facebook -->
-                        <div class="thefront text-center py-4 facebook soc1">
-                            <div class="social-icon"> <i class="fa fa-facebook fa-2x"></i> </div>
-                        </div>
-                        <!-- Twitter -->
-                        <div class="thefront text-center py-4 twitter soc2">
-                            <div class="social-icon"> <i class="fa fa-twitter fa-2x"></i></div>
-                        </div>
-                        <!-- Instagram -->
-                        <div class="thefront text-center py-4 instagram soc3">
-                            <div class="social-icon"> <i class="fa fa-instagram fa-2x"></i></div>
-                        </div>
-                        <!-- Linkedin -->
-                        <div class="thefront text-center py-4 linkedin soc4">
-                            <div class="social-icon"> <i class="fa fa-linkedin fa-2x"></i></div>
-                        </div>
-                        <!-- Youtube -->
-                        <div class="thefront text-center py-4 youtube soc5">
-                            <div class="social-icon"> <i class="fa fa-youtube fa-2x"></i></div>
-                        </div>
-                        <!-- gitHub -->
-                        <div class="thefront text-center py-4 github soc6">
-                            <div class="social-icon"> <i class="fa fa-github fa-2x"></i></div>
-                        </div>
-
-                    </section>
-                </div>
             </div>
-        </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2021 Copyright:
-            <a class="text-white" href="#">Recruitment.com</a>
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Recruitments.com</a>
         </div>
     </footer>
 
@@ -439,4 +655,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
+
 </html>

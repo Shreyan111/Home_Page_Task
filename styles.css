@@ -7,7 +7,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: #2c054d;
+    background-color: #012347;
     scroll-behavior: smooth;
 }
 #myBtn {
@@ -41,31 +41,35 @@ body::-webkit-scrollbar {
     background-color: purple;    
     border-radius: 10px;      
   }
+
+  .navbar-brand{
+      margin-right: 0px;
+  }
 .Image1{
     width: 150px;
     height: 150px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .top{
-    margin: 0 0 0 20px;
-    font-size: x-large;
+    margin: 0 0 0 24px;
+    font-size: 21px;
     font-weight: 600;
     color: white;
 }
 .top:hover{
     color: #e0e0e0;
 }
-.btn {
+.request {
     cursor: pointer;
     border: 5px solid #ffffff;
     background-color: transparent;
     height: 75px;
-    width: 250px;
+    width: 225px;
     color: #ffffff;
     font-size: 1.5em;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
-.btn:hover{
+.request:hover{
     color: #d9dadb;
 }
 .navbar-toggler{
@@ -81,7 +85,7 @@ body::-webkit-scrollbar {
 .sticky + .content {
     padding-top: 60px;
 }
-.animation{
+/* .animation{
     margin: 50px 0 0 50px;
 }
 .hidden {
@@ -106,17 +110,52 @@ body::-webkit-scrollbar {
     color: white;
     font-weight: 350;
     font-size: 24px;
+} */
+.first_text{
+    margin-top: 120px;
+    margin-left: 50px;
+    color: white;
+    font-size: 70px;
+}
+.right_arrow{
+    border: solid #00d953;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+.bigcircle{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.top_bigcircle{
+    position: absolute;
+    top: 250px;
+    left: 930px;
+    width: 450px;
+    height: 550px;
+}
+.top_bigcircle1{
+    position: absolute;
+    top: 250px;
+    left: 1180px;
+    width: 450px;
+    height: 550px;
 }
 .Image2{
-    margin-top: 50px;
+    /* margin-top: 50px;
     width: 170px;
-    height: 170px;
+    height: 170px; */
+    display: none;
 }
 .Image3{
-    margin-top: 50px;
+    /* margin-top: 50px;
     width: 300px;
     height: 200px;
-    margin-left: 150px;
+    margin-left: 150px; */
+    display: none;
 }
 .arrow{
     margin-top: 50px;
@@ -132,15 +171,6 @@ body::-webkit-scrollbar {
     font-weight: 400;
     letter-spacing: 2px;
 }
-.text1_1{
-    color: red;
-    margin-top: 100px;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-right: 8px;
-}
 .text2{
     color: white;
     text-align: center;
@@ -150,19 +180,28 @@ body::-webkit-scrollbar {
     letter-spacing: 1px;
 }
 .Image4{
-    margin: 40px 0 0 10px;
-    width: 50px;
-    height: 50px;
+    margin: 40px 50px 0 10px;
+    width: 250px;
+    height: 100px;
+}
+.see{
+    color: #00d953;
+    font-size: 28px;
+    font-weight: 300px;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: .1em;
 }
 .boxes{
     justify-content: center;
 }
 .box1{
-    height: 250px;
+    /* height: 250px;
     width: 300px;
     margin: 100px 50px 0 50px;
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #73AD21; */
+    display: none;
 }
 .box1:hover{
     background: linear-gradient(-45deg, #ee7752, #e73c7e);
@@ -211,7 +250,7 @@ body::-webkit-scrollbar {
     margin-left: 50px;
 }
 .connect{
-    margin-top: 100px;
+    margin-top: 250px;
 }
 .circle4{
     width: 100px;
@@ -375,14 +414,52 @@ u{
 .speak{
     margin: 50px 0 0 250px;
 }
+.first_line{
+    color: white;
+    font-size: 80px;
+    font-weight: 400px;
+}
+.second_line{
+    color: white;
+    font-size: 22px;
+    font-weight: 300px;
+}
+.image_dover{
+    width: 600px;
+    height: 500px;
+    margin-left: 30px;
+}
+hr.new1 {
+    border-top: 13px solid #1eff00;
+    width: 25%;
+  }
+  hr.new2 {
+    border-top: 13px solid #1eff00;
+    width: 40%;
+    margin-left: 90px;
+    margin-top: 200px;
+  }
+  hr.new3 {
+    border-top: 13px solid rgb(0, 0, 0);
+    width: 40%;
+    margin-left: 90px;
+    margin-top: 200px;
+  }
 
 @media (min-width: 1001px) and (max-width: 1400px) { 
     .Image8{
         display: none;
     }
+    .image_dover{
+        width: 500px;
+        height: 400px;
+    }
+    .first_line{
+        font-size: 40px;
+    }
 }
 
-@media (min-width: 1001px) and (max-width: 1320px) { 
+@media (min-width: 1001px) and (max-width: 1380px) { 
     .request{
         display: none;
     }
@@ -390,6 +467,12 @@ u{
         margin-top: 10px;
         margin-left: 50px;
     }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0.1rem;
+}
 }
 
 
@@ -536,3 +619,141 @@ u{
     border-radius: 50%;
     border: 3px solid black;
 }
+.foot{
+    background-color: #000000;
+}
+.comp{
+    margin-top: 50px;  
+    margin-right: 50px;  
+}
+.cand{
+    margin-top: 50px;
+    margin-right: 50px; 
+}
+.empl{
+    margin-top: 50px;
+    margin-right: 50px; 
+}
+.comp1{
+    margin-top: 50px;
+    margin-right: 50px; 
+}
+.customers{
+    color: white;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    font-weight: 400px;
+}
+.image_meet{
+    outline: 10px;
+    width: 900px;
+    height: 600px;
+    margin-left: 450px;
+    margin-top: -125px;
+    opacity: 70%;
+}
+.other{
+    margin-top: 150px;
+}
+.navbar-nav{
+    margin-right: 100px;
+}
+.we{
+    color: white;
+    font-size: 80px;
+    font-weight: 400px;
+}
+.discover{
+    margin-top: 250px;
+    margin-left: 90px;
+}
+.uses{
+    color: white;
+    font-size: 24px;
+    font-weight: 300px;
+}
+.our{
+    color: white;
+    font-size: 24px;
+    font-weight: 300px;
+}
+.orbit{
+    width: 700px;
+    height: 700px;
+}
+.find{
+    color: white;
+    font-size: 60px;
+    font-weight: 500px;
+}
+.job{
+    margin-top: 250px;
+}
+.find_below{
+    color: white;
+    font-size: 24px;
+    font-weight: 400px;
+}
+.find_below1{
+    color: white;
+    font-size: 24px;
+    font-weight: 400px;
+}
+.button_below{
+    color: white;
+    font-size: 14px;
+    font-weight: 300px;
+    margin-top: 20px;
+}
+.apply{
+    height: 75px;
+    width: 200px;
+}
+.first_image{
+    width: 150px;
+    height: 150px;
+}
+.heading{
+    color: white;
+}
+.heading_below{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.steps{
+    margin-top: 150px;
+}
+.heading1{
+    color: white;
+}
+.heading1_below{
+    color: white;
+    font-size: 18px;
+}
+.learn{
+    color: red;
+    font-size: 18px;
+}
+.bounties{
+    margin-top: 250px;
+}
+table {
+    color: white;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  .table123{
+      margin-top: 60px;
+      margin-bottom: 200px;
+  }
+  
